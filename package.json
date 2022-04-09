@@ -1,0 +1,19 @@
+{
+  "name": "rating",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annamourasobral/rating-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annamourasobral/rating-app/issues"
+  },
+  "homepage": "https://github.com/annamourasobral/rating-app#readme"
+}
