@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link rel="stylesheet" href="./style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | Interactive rating component</title>
-  </head>
-  <body>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="./style.css" />
+
+  <title>Frontend Mentor | Interactive rating comp1nt</title>
+</head>
+
+<body>
+  <main>
     <div class="container" id="container">
       <figure class="star">
         <img class="star-icon" src="./images/icon-star.svg" alt="Star Icon" />
@@ -27,39 +25,38 @@
           is appreciated to help us improve our offering!
         </p>
       </div>
-        <div class="rating">
-          <span class="rate-btn one" id="one" onclick="rateBtn()">1</span>
-          <span class="rate-btn two" id="two" onclick="rateBtn()">2</span>
-          <span class="rate-btn three" id="three" onclick="rateBtn()">3</span>
-          <span class="rate-btn four" id="four" onclick="rateBtn()">4</span>
-          <span class="rate-btn five" id="five" onclick="rateBtn()">5</span>
-        </div>
-        <div class="button">
-          <button class="btn" onclick="onSubmit()">Submit</button>
-        </div>
+      <div class="rating">
+        <div class="rate-btn 1" id="1" onclick="rateBtn()">1</div>
+        <div class="rate-btn 2" id="2" onclick="rateBtn()">2</div>
+        <div class="rate-btn 3" id="3" onclick="rateBtn()">3</div>
+        <div class="rate-btn 4" id="4" onclick="rateBtn()">4</div>
+        <div class="rate-btn 5" id="5" onclick="rateBtn()">5</div>
+      </div>
+      <div class="submitButton">
+        <button class="btn" onclick="onSubmit()">Submit</button>
+      </div>
     </div>
 
     <div class="onclick-container" id="onclick-container">
       <figure class="star">
-        <img class="onclick-star-icon" src="./images/illustration-thank-you.svg" 
-      alt="Star Icon" />
+        <img class="onclick-star-icon" src="./images/illustration-thank-you.svg" alt="Star Icon" />
+        </br><captionfigure class="result">You selected <span id="result-no"></span> out of 5</captionfigure>
       </figure>
-      <div class="text">
-        <p class="result">You selected <span id="result-no"></span> out of 5</p>
+      <div class="text thank-you">
         <h2>Thank You!</h2>
-        <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch.</p>
-    </div>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in
+          touch!</p>
+      </div>
+  </main>
+  <footer class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a id="me"
+      href="https://github.com/annamourasobral">Anna Moura Sobral</a>.
+  </footer>
 
-    <footer class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" 
-    target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="https://github.com/annamourasobral">Anna Moura Sobral</a>.
-    </footer>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./script.js"></script>
+</body>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./script.js"></script>
-  </body>
 </html>
